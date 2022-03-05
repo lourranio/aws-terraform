@@ -47,7 +47,9 @@ Plugins Visual Studio
 
   `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -`
 
-  ` sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"`
+  ```
+   sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  ```
 
   `sudo apt install terraform`
 
@@ -62,14 +64,6 @@ exemplo:
 ## 🎈 REQUISITO OBRIGATÓRIO <a name = "requisitos"></a>
 
 Precisa estar configurado o CLI da AWS.
-
-To use the bot, type:
-
-```
-!dict word
-```
-
-The first part, i.e. "!dict" **is not** case sensitive.
 
 ### No VSCODE depois de feito MAIN.TF:
 
