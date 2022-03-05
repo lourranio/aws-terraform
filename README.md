@@ -77,8 +77,6 @@ terraform apply
 
 Instancia criada na AWS.
 
-**Source:** https://www.urbandictionary.com/define.php?term=what%20is%20love
-
 ---
 
 ## 🎈 RESUMO DA OPERA<a name = "resumo"></a>
